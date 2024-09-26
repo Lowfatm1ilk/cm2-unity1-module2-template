@@ -1,0 +1,1077 @@
+Unity Editor version:    2022.3.44f1 (c3ae09b9f03c)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.6.1 (Build 23G93)
+Darwin version:          23.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+/Users/michael/Documents/GitHub/cm2-unity1-module2-template/cm2-unity1-module2-template
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+58429
+Successfully changed project path to: /Users/michael/Documents/GitHub/cm2-unity1-module2-template/cm2-unity1-module2-template
+/Users/michael/Documents/GitHub/cm2-unity1-module2-template/cm2-unity1-module2-template
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8389087040]  Target information:
+
+Player connection [8389087040]  * "[IP] 192.168.0.180 [Port] 0 [Flags] 2 [Guid] 512682643 [EditorId] 512682643 [Version] 1048832 [Id] OSXEditor(0,Shawns-MacBook-Air-15.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8389087040] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8389087040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 6.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/michael/Documents/GitHub/cm2-unity1-module2-template/cm2-unity1-module2-template/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56485
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002542 seconds.
+- Loaded All Assemblies, in  0.248 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.129 seconds
+Domain Reload Profiling: 378ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (130ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.261 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.243 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (58ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (61ms)
+			TypeCache.Refresh (56ms)
+				TypeCache.ScanAssembly (47ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (243ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (18ms)
+			ProcessInitializeOnLoadAttributes (147ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.44f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (46.1 KB). Loaded Objects now: 1914.
+Memory consumption went from 90.4 MB to 90.4 MB.
+Total: 2.173333 ms (FindLiveObjects: 0.045916 ms CreateObjectMapping: 0.018042 ms MarkObjects: 1.839625 ms  DeleteObjects: 0.269417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88693.317022 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat
+  artifactKey: Guid(f62b52b2d4b721742a0bc5c6b4db468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanWhite.mat using Guid(f62b52b2d4b721742a0bc5c6b4db468d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98f10b26a97b6641688e2176218afa4e') in 0.121354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.479682 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/abort1.ogg
+  artifactKey: Guid(d76950a347e9b774b8a463176dc98cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/abort1.ogg using Guid(d76950a347e9b774b8a463176dc98cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5b9d56e02570049203efcce9b236f641') in 0.023554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/asap3.ogg
+  artifactKey: Guid(357da89b60f2c6a4496d411cc6b5ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/asap3.ogg using Guid(357da89b60f2c6a4496d411cc6b5ac7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '301da1716f7aeb2b2f49a610e88bca61') in 0.004737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/advancing1.ogg
+  artifactKey: Guid(e478986af7b658e49ba4771723499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/advancing1.ogg using Guid(e478986af7b658e49ba4771723499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93604af415f7fc6a564dc7ec1440b7a2') in 0.004552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/even i can't fix that2.ogg
+  artifactKey: Guid(e4d0797823716b74e99ce2f5f5c78010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/even i can't fix that2.ogg using Guid(e4d0797823716b74e99ce2f5f5c78010) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c988b1e2253dbc65f0933dd7c0df8891') in 0.008354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/do no harm yeah right1.ogg
+  artifactKey: Guid(11805790fc312a24eb86e8b3b86bbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/do no harm yeah right1.ogg using Guid(11805790fc312a24eb86e8b3b86bbb9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62c5740fd051b0b6c8665417c4e77be7') in 0.008810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy down2.ogg
+  artifactKey: Guid(3af455e565d7e344caf69cec4f611712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy down2.ogg using Guid(3af455e565d7e344caf69cec4f611712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b35404fd0192ae025026dce9e5e40eff') in 0.003909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy engaged2.ogg
+  artifactKey: Guid(829ae911f3e0309479a65ddbc6baa648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy engaged2.ogg using Guid(829ae911f3e0309479a65ddbc6baa648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f6164b33ca388b22717e82d3c040a21') in 0.007111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/all clear1.ogg
+  artifactKey: Guid(56e711b566f2f984ca985ab9a1ae97b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/all clear1.ogg using Guid(56e711b566f2f984ca985ab9a1ae97b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c78c3203d28ecd48764ad4e2f05d6ac3') in 0.004537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy spotted1.ogg
+  artifactKey: Guid(c0822271090d4a343ae359529e81ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy spotted1.ogg using Guid(c0822271090d4a343ae359529e81ac8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '12825b4475e8e1a436f26c9fd515ffbf') in 0.004425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/danger1.ogg
+  artifactKey: Guid(4ab7f27b4deb4014e8a4b036c72d3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/danger1.ogg using Guid(4ab7f27b4deb4014e8a4b036c72d3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e76882e3df17c27ec150a34763fcc588') in 0.003296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/doctor is in session1.ogg
+  artifactKey: Guid(2855c80e087120041a95803de6e071b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/doctor is in session1.ogg using Guid(2855c80e087120041a95803de6e071b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b0a6fddc72fa9c43ed2c399acd4f3e27') in 0.003920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy spotted2.ogg
+  artifactKey: Guid(e9258da5bff9e0e4cbe4ffe712a2f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/enemy spotted2.ogg using Guid(e9258da5bff9e0e4cbe4ffe712a2f04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f760d966ea94be9ed6d87df62c811f26') in 0.005428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/easy2.ogg
+  artifactKey: Guid(4ea253aad0a09ba4599b8d4cf33af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/easy2.ogg using Guid(4ea253aad0a09ba4599b8d4cf33af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '729055a86297d5852d8800071fba3ced') in 0.003371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/fall back1.ogg
+  artifactKey: Guid(b06169f82e6027146be59704309f07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/fall back1.ogg using Guid(b06169f82e6027146be59704309f07ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e716fb75ed949b3f7af41d6bc41e593') in 0.003303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/affirmative2.ogg
+  artifactKey: Guid(9d03f2b9cc0ad7d408ffb5374a5a7202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/affirmative2.ogg using Guid(9d03f2b9cc0ad7d408ffb5374a5a7202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64b14a35b4f9cde35fabca11bdc49e22') in 0.003424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/engage the enemy2.ogg
+  artifactKey: Guid(59c5fcc95d51afb46b6f95b043d9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/engage the enemy2.ogg using Guid(59c5fcc95d51afb46b6f95b043d9cfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1907e22d97079695caf7f56168384498') in 0.004328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.956273 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/get down2.ogg
+  artifactKey: Guid(fee67312f1e31a54d94412e479d40f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/get down2.ogg using Guid(fee67312f1e31a54d94412e479d40f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '696d745babaddbd3781b4adebdb61ed4') in 0.006901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/good job2.ogg
+  artifactKey: Guid(a03884a014236d946b56a76a1d0370da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/good job2.ogg using Guid(a03884a014236d946b56a76a1d0370da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9470a4a8376041c1ae33072325143425') in 0.004647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/going silent2.ogg
+  artifactKey: Guid(b29044031c77a9c459e6bd7ce818c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/going silent2.ogg using Guid(b29044031c77a9c459e6bd7ce818c39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f5b035999a1bcf0f18afdcb16f91904d') in 0.006116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/get to position1.ogg
+  artifactKey: Guid(224d0441b8c6a7640be8d3e58003f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/get to position1.ogg using Guid(224d0441b8c6a7640be8d3e58003f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'de358d3e6d4e6bfd99168300cfdfb1ef') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041667 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/grenade1.ogg
+  artifactKey: Guid(dd6cf106a467f3c429758c1fb4976942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/grenade1.ogg using Guid(dd6cf106a467f3c429758c1fb4976942) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16a9b40483a823338a20c707d6001e09') in 0.004176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/help2.ogg
+  artifactKey: Guid(d929535cb44a12b4f9f5370edc8f581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/help2.ogg using Guid(d929535cb44a12b4f9f5370edc8f581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '59d085f88947c76955fcf9c95495fe48') in 0.003319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/had to skip the hippocratic oath1.ogg
+  artifactKey: Guid(46f7e03bff6b5d348a180a27f5d5bea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/had to skip the hippocratic oath1.ogg using Guid(46f7e03bff6b5d348a180a27f5d5bea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a77581eebf7e548e0d1195419090a080') in 0.005003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hold still it's just pain1.ogg
+  artifactKey: Guid(666eb662ecdd2d34fbbc58cebb476a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hold still it's just pain1.ogg using Guid(666eb662ecdd2d34fbbc58cebb476a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '307aea424b9d679d4913da7e0cf20286') in 0.006454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.059535 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/holding position1.ogg
+  artifactKey: Guid(a3bafd75d7e264443b9bad9707691bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/holding position1.ogg using Guid(a3bafd75d7e264443b9bad9707691bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ffe580f9de5acd3ad81d396082532a7e') in 0.004130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostile1.ogg
+  artifactKey: Guid(32411f81d2a7d254fa00327263f0539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostile1.ogg using Guid(32411f81d2a7d254fa00327263f0539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '95769873359ca52845774f064205d7fc') in 0.003767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostile3.ogg
+  artifactKey: Guid(7573aa46541537b429777f5aad79d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostile3.ogg using Guid(7573aa46541537b429777f5aad79d690) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5dfdd1d0a656e1060412f263547daad1') in 0.005165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostiles1.ogg
+  artifactKey: Guid(8b0d1789c3e59e041955d8dfd97edaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/hostiles1.ogg using Guid(8b0d1789c3e59e041955d8dfd97edaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db8278f181345c827a535d2c86c90e47') in 0.003580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.319622 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i need backup1.ogg
+  artifactKey: Guid(707e07bdebda7da4eb1860b391a58a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i need backup1.ogg using Guid(707e07bdebda7da4eb1860b391a58a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b56ffdc375ffe059fe46452f19769f5a') in 0.007592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm trying to help stop screaming2.ogg
+  artifactKey: Guid(c0c1c00d404bf294bbf10584f713ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm trying to help stop screaming2.ogg using Guid(c0c1c00d404bf294bbf10584f713ad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'eb6d5ad9223e66187b0000c6dff8f8aa') in 0.007501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm down2.ogg
+  artifactKey: Guid(b8a85334a53613640a81f48b573ac88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm down2.ogg using Guid(b8a85334a53613640a81f48b573ac88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c567f132a19bf905b964f4f16708d2c2') in 0.005657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm on it1.ogg
+  artifactKey: Guid(ff4ea4d4df58ac040ba43777dda326f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i'm on it1.ogg using Guid(ff4ea4d4df58ac040ba43777dda326f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1274567ebbbcc04087f7a55036e08de1') in 0.008252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.111176 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i've got your medicine right here.ogg
+  artifactKey: Guid(1127f204205be7c4c9a49496e6e6f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/i've got your medicine right here.ogg using Guid(1127f204205be7c4c9a49496e6e6f297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d1bd8e154d1437ddc2ba10eaf4282a7') in 0.005206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/impossible2.ogg
+  artifactKey: Guid(830b440824469464aab5076f816ece8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/impossible2.ogg using Guid(830b440824469464aab5076f816ece8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '899cfa263ba34311c7e513802cbf3563') in 0.004435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/in range2.ogg
+  artifactKey: Guid(9c554adbf18d96d4da04410e50134169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/in range2.ogg using Guid(9c554adbf18d96d4da04410e50134169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6d192c1219f60243ed128d3535f6bd1') in 0.005826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/kill confirmed1.ogg
+  artifactKey: Guid(b0b40af3fa0d0d44eb5265a88ddd8416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/kill confirmed1.ogg using Guid(b0b40af3fa0d0d44eb5265a88ddd8416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d0417e3f08661a90773537ecf115609') in 0.005414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015940 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/locking on target1.ogg
+  artifactKey: Guid(3d0fa4aa2d0e1f74d9e99594b327372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/locking on target1.ogg using Guid(3d0fa4aa2d0e1f74d9e99594b327372a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a8bd6de6c0c4f478de27ce6b6e96b4b') in 0.003657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/move out1.ogg
+  artifactKey: Guid(c48fdd8ad24a92e4abbfbfbc574dc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/move out1.ogg using Guid(c48fdd8ad24a92e4abbfbfbc574dc18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d5ded51a4dbd4cec16c1ca6c6c664e6') in 0.004545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/medic1.ogg
+  artifactKey: Guid(7f6382814eb1c0744b14d6d0aecdc2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/medic1.ogg using Guid(7f6382814eb1c0744b14d6d0aecdc2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89961ce6efd2a58edfdacdeb9cd42132') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no can do2.ogg
+  artifactKey: Guid(38d578d1dd4bfae4797db52ec1e4268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no can do2.ogg using Guid(38d578d1dd4bfae4797db52ec1e4268f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5946de7c60410b174f0aa89914c56e21') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.045369 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no way2.ogg
+  artifactKey: Guid(2162c06f5b2531449899cfa74bd6607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no way2.ogg using Guid(2162c06f5b2531449899cfa74bd6607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee528821a8dba414fb6ce7d5b8308270') in 0.003578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/okie dokie1.ogg
+  artifactKey: Guid(7d548476cc6e1974c922b6d866e6690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/okie dokie1.ogg using Guid(7d548476cc6e1974c922b6d866e6690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '78b16452fc7e80481b48957619c43223') in 0.004743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no way3.ogg
+  artifactKey: Guid(2f20708f27a3114448ab61cfdd120448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/no way3.ogg using Guid(2f20708f27a3114448ab61cfdd120448) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'acaee82bf25eb29732a8fefffdb616ca') in 0.003747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/nuhuh1.ogg
+  artifactKey: Guid(077f4aaed73391e409fac47165fefbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/nuhuh1.ogg using Guid(077f4aaed73391e409fac47165fefbce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '16e64fc9b8a7652655c6232de57d7bc4') in 0.003462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035142 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/out of range1.ogg
+  artifactKey: Guid(06e2fe68ee2a5de47b50e241190ccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/out of range1.ogg using Guid(06e2fe68ee2a5de47b50e241190ccca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2197512d5b2b5d73a11c46116c89b2d8') in 0.004311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain b2.ogg
+  artifactKey: Guid(908f2afd4cc4b23459ea5516b395ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain b2.ogg using Guid(908f2afd4cc4b23459ea5516b395ee7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f2c1657c2a5590115d31c3f90e92daf') in 0.003394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/over2.ogg
+  artifactKey: Guid(aefb60a9e630b0d41ae3ec99694cfc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/over2.ogg using Guid(aefb60a9e630b0d41ae3ec99694cfc46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd258f3247b0893598c4441270581f0f4') in 0.003891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/out of range2.ogg
+  artifactKey: Guid(86872c912f06b2d4b94336fadfe022fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/out of range2.ogg using Guid(86872c912f06b2d4b94336fadfe022fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c6466ed5e13974ceda0586818b5ff99b') in 0.006554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046033 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain c4.ogg
+  artifactKey: Guid(7e4e7492800407944a51c3c9be721ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain c4.ogg using Guid(7e4e7492800407944a51c3c9be721ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd896f879b1a8517cf12c0748af140c63') in 0.004804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/requesting assistance1.ogg
+  artifactKey: Guid(bca58dc1c51757e4e86aaddb643f862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/requesting assistance1.ogg using Guid(bca58dc1c51757e4e86aaddb643f862b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe094bc7fc0a5ce6a3011cf0525c93aa') in 0.003819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain e1.ogg
+  artifactKey: Guid(951ad4cb83ff2e44fbfe3f41e2740308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain e1.ogg using Guid(951ad4cb83ff2e44fbfe3f41e2740308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d69fc6d3639a215b3404f6d401d798c') in 0.006430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain d1.ogg
+  artifactKey: Guid(5b3c9ff255119f74092d1d2a0bdd1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/pain d1.ogg using Guid(5b3c9ff255119f74092d1d2a0bdd1548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b44a18da64e8360bda69ba0670089a07') in 0.005739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.111929 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/retreat1.ogg
+  artifactKey: Guid(45ee73795f31a3245b68c789e1478649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/retreat1.ogg using Guid(45ee73795f31a3245b68c789e1478649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff1d994484db1b726e8fe8f6e8278bd9') in 0.004688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/roger1.ogg
+  artifactKey: Guid(f1095ac75dff1094983e0a395773b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/roger1.ogg using Guid(f1095ac75dff1094983e0a395773b1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5efa387b8d08521c0869ebd8b88ecadb') in 0.003587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/sniper1.ogg
+  artifactKey: Guid(a48373b31139ac84cb3c6d25e32e1647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/sniper1.ogg using Guid(a48373b31139ac84cb3c6d25e32e1647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b402fed32e261f69df01fd139ca3e30') in 0.006089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/sir yes sir1.ogg
+  artifactKey: Guid(0bd616debb8bb8a499466b0e62c9c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/sir yes sir1.ogg using Guid(0bd616debb8bb8a499466b0e62c9c3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '00fbbe3b8a5da03bc61f7951e42286b6') in 0.003726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.225405 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/status critical1.ogg
+  artifactKey: Guid(83efee22cfadf2243a92e24831080e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/status critical1.ogg using Guid(83efee22cfadf2243a92e24831080e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '301e6542f4af892757f473554cd7f3f5') in 0.005620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target destroyed1.ogg
+  artifactKey: Guid(399dee006fb4d8047bfe38d3149b010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target destroyed1.ogg using Guid(399dee006fb4d8047bfe38d3149b010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3cde8973a3135f4f02cef3bd1b9a522') in 0.004758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/take cover1.ogg
+  artifactKey: Guid(c0d02b302abfa6743844f3cea10ce9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/take cover1.ogg using Guid(c0d02b302abfa6743844f3cea10ce9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a96f166836672e58e3aeae6d8a8eb746') in 0.005223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/take cover2.ogg
+  artifactKey: Guid(c8873afbacd19134d86f5abde9aed82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/take cover2.ogg using Guid(c8873afbacd19134d86f5abde9aed82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cfc7603912de90c4541a6c4839f059ec') in 0.003878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028786 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target in range1.ogg
+  artifactKey: Guid(11343050a25cb50488fd5ecb56cb1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target in range1.ogg using Guid(11343050a25cb50488fd5ecb56cb1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab185f1dfc1881b5e53215bd2a6b86a1') in 0.004510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/under heavy fire2.ogg
+  artifactKey: Guid(e44e7f3625e08274794974fe53bff5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/under heavy fire2.ogg using Guid(e44e7f3625e08274794974fe53bff5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60b6b9bfa77bb923cfbe0b0cb1e1aa29') in 0.004808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/this medic needs a medic1.ogg
+  artifactKey: Guid(a5741261ab9ee634ea1580f1b8140e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/this medic needs a medic1.ogg using Guid(a5741261ab9ee634ea1580f1b8140e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '876720eab12b14306d2226ed43bcc966') in 0.005220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target in range2.ogg
+  artifactKey: Guid(4b27dfe7fd4e40848b9754364b1e27fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/target in range2.ogg using Guid(4b27dfe7fd4e40848b9754364b1e27fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5edc71f0bdf886f2f63c5dacb0394f46') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006079 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/visual on target1.ogg
+  artifactKey: Guid(97de196f738112249812fb9598d7caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/visual on target1.ogg using Guid(97de196f738112249812fb9598d7caaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fe1db683cba3487cc6b1ea78704a6a32') in 0.005200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/we're under heavy fire1.ogg
+  artifactKey: Guid(e604d739f213eb54c8d14d978f01c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/we're under heavy fire1.ogg using Guid(e604d739f213eb54c8d14d978f01c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '44c276dda2f26cea7f32fba2b78e9545') in 0.005011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/visual on target2.ogg
+  artifactKey: Guid(50a5b695c65baac419ff1af474994c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/visual on target2.ogg using Guid(50a5b695c65baac419ff1af474994c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '707555d5c9abe57609d6df846883ad96') in 0.006045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/we are under heavy fire1.ogg
+  artifactKey: Guid(5c099d1586b7ce14ba191c9316a29a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/we are under heavy fire1.ogg using Guid(5c099d1586b7ce14ba191c9316a29a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b5f8f05ae00a128effffe935732b884') in 0.005048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006462 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/yes m'am2.ogg
+  artifactKey: Guid(b3425bd276634e344b25812d8ef85a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Radio/yes m'am2.ogg using Guid(b3425bd276634e344b25812d8ef85a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cda22b0f17b3e7abf1065bde3293d774') in 0.003632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.410890 seconds.
+  path: Assets/LowPoly Guns/Meshes/Pistol 2.fbx
+  artifactKey: Guid(a19d2da931e9a7946baefbab93b19e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPoly Guns/Meshes/Pistol 2.fbx using Guid(a19d2da931e9a7946baefbab93b19e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21cd0d50006dbbf18016a0bb0a572300') in 0.137516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.810317 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/abort1.ogg
+  artifactKey: Guid(1c66b1d2b61bd7d43a335f79dfb1d459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/abort1.ogg using Guid(1c66b1d2b61bd7d43a335f79dfb1d459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf4e5924dc4d9b2d2ac490ddcaac4676') in 0.009151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/copy that1.ogg
+  artifactKey: Guid(98db7d3e467e9244f854374d32be75e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/copy that1.ogg using Guid(98db7d3e467e9244f854374d32be75e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3f39602f801cdd72cbb345221400cc80') in 0.006184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/covering fire2.ogg
+  artifactKey: Guid(ad94f2daeba923440a5d6ec2bb2d90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/covering fire2.ogg using Guid(ad94f2daeba923440a5d6ec2bb2d90fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '501836fe16363b03c6af5c14949039c9') in 0.005747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/fire in the hole1.ogg
+  artifactKey: Guid(fb0c78e6402135142806e51ca7f70f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/fire in the hole1.ogg using Guid(fb0c78e6402135142806e51ca7f70f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b67d39c457e5890f16fc82415a06c50d') in 0.004936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/advancing2.ogg
+  artifactKey: Guid(07c8418aa165e674aad55b9d6f0bd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/advancing2.ogg using Guid(07c8418aa165e674aad55b9d6f0bd35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '661ef2ac55420e90db0d6261e8bba827') in 0.007445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engaging enemy2.ogg
+  artifactKey: Guid(3a7e891edfe5efa45a0afd45ff6bd9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engaging enemy2.ogg using Guid(3a7e891edfe5efa45a0afd45ff6bd9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ff3d94a97dcb7da33af17c9077a4c63f') in 0.004683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/easy2.ogg
+  artifactKey: Guid(5593b5ebb7f27c14dbcf893bb8d35912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/easy2.ogg using Guid(5593b5ebb7f27c14dbcf893bb8d35912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '228f3541d1ed1ae2b97ad82591eae11d') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/even i can't fix that1.ogg
+  artifactKey: Guid(d53ae47929378d9449271eda881aa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/even i can't fix that1.ogg using Guid(d53ae47929378d9449271eda881aa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e6c5b6a8b08e9923f09dde863c4e2d7') in 0.006119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engage the enemy2.ogg
+  artifactKey: Guid(b92b1a5eebac93646b1095ba40eb512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engage the enemy2.ogg using Guid(b92b1a5eebac93646b1095ba40eb512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '45f0e3cd7428b9cce8e534b4fe0d694e') in 0.004245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/enemy spotted2.ogg
+  artifactKey: Guid(bd02dc02f1250de47804943044e73975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/enemy spotted2.ogg using Guid(bd02dc02f1250de47804943044e73975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f15890c0c0f9bbe2c8d92b9b151c3c85') in 0.004776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/asap3.ogg
+  artifactKey: Guid(cbdb30ddf8936b140917c9ebff0bce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/asap3.ogg using Guid(cbdb30ddf8936b140917c9ebff0bce87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4b26e9d9f33d6e4ea0cef3afd013d6e') in 0.003969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/enemy engaged3.ogg
+  artifactKey: Guid(30c36a8f082a96c4bb7aaf24e7ac62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/enemy engaged3.ogg using Guid(30c36a8f082a96c4bb7aaf24e7ac62b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '244e4fc24c3b4928788cbaaa8851bcc2') in 0.006244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/easy1.ogg
+  artifactKey: Guid(5e0f3364fb0c98143908e03939b394cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/easy1.ogg using Guid(5e0f3364fb0c98143908e03939b394cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8fd9c6d0a70369c4836ac27044d2afd9') in 0.003570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/abort2.ogg
+  artifactKey: Guid(5ef0db15450b3ce42b1d9c905d881033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/abort2.ogg using Guid(5ef0db15450b3ce42b1d9c905d881033) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '541851c8a1b737a332559e04ffd2d13b') in 0.006355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/cover me2.ogg
+  artifactKey: Guid(645c787b850947c48b9bbcac74e6181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/cover me2.ogg using Guid(645c787b850947c48b9bbcac74e6181b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71eb3189209bc9c176d919c22df9867d') in 0.003804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engaging enemy1.ogg
+  artifactKey: Guid(652d83d4c7e3f074c9f63a7825e176cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/engaging enemy1.ogg using Guid(652d83d4c7e3f074c9f63a7825e176cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'efbbbe836498f37d0da014c02566e167') in 0.004065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/attack1.ogg
+  artifactKey: Guid(94583e842ff9c3341a5db17866c87e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Female Soldier Voice - Dr. Elena Shiroff/Normal/attack1.ogg using Guid(94583e842ff9c3341a5db17866c87e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bbd48f7c0e11ece720340f4f95ecbfde') in 0.004144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
