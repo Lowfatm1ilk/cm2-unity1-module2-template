@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float speed = Input.GetKey(runKey) ? runSpeed : walkSpeed;
 
