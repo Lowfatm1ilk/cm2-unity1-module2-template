@@ -18,6 +18,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             agent = GetComponentInChildren<UnityEngine.AI.NavMeshAgent>();
             character = GetComponent<ThirdPersonCharacter>();
 
+            target = GameObject.FindWithTag("Player").transform;
 	        agent.updateRotation = false;
 	        agent.updatePosition = true;
         }
